@@ -19,6 +19,10 @@ const Board: React.FC<BorderProps> = memo((props) => {
 
   return (
     <div>
+      <p>one</p>
+      <p>two</p>
+      <p>three</p>
+      <p>four</p>
       <div className="board-row">
         {renderSquare(0)}
         {renderSquare(1)}
